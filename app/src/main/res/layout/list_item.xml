@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:text="歌手名称"
+        android:textSize="20sp"
+        android:id="@+id/tv_list_item_singer"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:text="音乐名称"
+        android:textSize="20sp"
+        android:id="@+id/tv_list_item_title"
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_height="40dp" />
+
+</LinearLayout>
